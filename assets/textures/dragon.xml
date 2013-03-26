@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:2178e20a6cc18dc69d4153fb8a488f1c$ -->
+<TextureAtlas imagePath="dragon.png">
+    <SubTexture name="dragon-body" x="2" y="2" width="151" height="111"/>
+    <SubTexture name="dragon-curve" x="155" y="2" width="166" height="136"/>
+    <SubTexture name="dragon-head" x="323" y="2" width="158" height="162"/>
+    <SubTexture name="dragon-tail" x="2" y="166" width="141" height="137"/>
+</TextureAtlas>
