@@ -18,7 +18,7 @@ package
 	import starling.utils.ScaleMode;
 	import starling.utils.formatString;
 	
-	[SWF(frameRate="30", backgroundColor="#ffffff")]
+	[SWF(frameRate="30", backgroundColor="#dfdfdf")]
 	public class TikiTapToe extends Sprite
 	{
 		// We embed the "Ubuntu" font. Beware: the 'embedAsCFF'-part IS REQUIRED!!!

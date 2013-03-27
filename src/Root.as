@@ -27,7 +27,7 @@ package
         public function Root()
         {
             addEventListener(Menu.START_GAME, onStartGame);
-            addEventListener(Game.GAME_OVER,  onGameOver);
+            //addEventListener(Game.GAME_OVER,  onGameOver);
             
             // not more to do here -- Startup will call "start" immediately.
         }

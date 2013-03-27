@@ -16,7 +16,12 @@ package
         
         public static const STAGE_WIDTH:int  = 480;
         public static const STAGE_HEIGHT:int = 320;
-		
+		public static const BOARD_WIDTH:int = 280;
+		public static const BOARD_HEIGHT:int = 280;
+		public static const BOARD_LIMIT:int = 4;
+
 		public static const ASPECT_RATIO:Number = 1.5;
+		
+		
     }
 }

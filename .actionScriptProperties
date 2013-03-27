@@ -41,7 +41,11 @@
     </libraryPath>
     <sourceAttachmentPath/>
   </compiler>
-  <applications/>
+  <applications>
+    <application path="TikiTapToe.as">
+      <airExcludes/>
+    </application>
+  </applications>
   <modules/>
   <workers/>
   <buildCSSFiles/>

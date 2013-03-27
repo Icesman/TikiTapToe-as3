@@ -9,14 +9,14 @@ package
 
 	public class Board
 	{
-		public var limit:int = 4;
+		public var limit:int = Constants.BOARD_LIMIT;
 		public var moves:Array = [];
 		public var GAMESTATE:int = -1;
 		public var current:Array = [];
 		public var lastMove:Object = {1:null,2:null};
 		public var totalMoves:int = limit * limit;
-		public var width:Number = 280;
-		public var height:Number = 280;
+		public var width:Number = Constants.BOARD_WIDTH;
+		public var height:Number = Constants.BOARD_HEIGHT;
 		
 		public var baseTexture:Texture;
 		
@@ -194,12 +194,12 @@ package
 			var newmove:Move;
 
 			for each (var m:Move in b.moves){
-				newmove = new Move();
+				newmove = new Move(baseTexture);
 				newmove.clone(m);
 				newmoves.push(newmove);
 			}
 			for each (m in b.current){
-				newmove = new Move();
+				newmove = new Move(baseTexture);
 				newmove.clone(m);
 				newcurrent.push(newmove);
 			}

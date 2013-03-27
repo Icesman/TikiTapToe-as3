@@ -19,10 +19,11 @@ package
 		private var _nextPosition:Array = [];
 		private var _player:int = 0;
 		
-		public function Move(upState:Texture = null, text:String="", downState:Texture=null)
+		public function Move(upState:Texture, text:String="", downState:Texture=null)
 		{
 			//var piecebaseBitmap:Bitmap = new TikiTapToe.Piece0Texture();
 			//upState = //Texture.fromBitmap(piecebaseBitmap);
+			//parent.
 			super(upState, "", downState);
 			//filter = new BlurFilter(5,5,1);
 		}
